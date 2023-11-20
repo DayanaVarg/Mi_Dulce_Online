@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+.btnA{
+    margin-left: 90%;
+}
 .title{
     margin-top: 35px;
     font-size: 30px;
@@ -39,12 +43,12 @@
 
   
 }
-.card-columns {
+.colm {
     padding: 12px 0;
       column-count: 4;
   }
 
-.card-img-top{
+.img2{
     margin: auto;
     height: 260px;
     width: 280px;
@@ -56,13 +60,25 @@
 }
 
 .card-body .btnEli{
-    background-color: brown;
-    border-color: brown;
+    background-color: rgb(211, 56, 56);
+    border-color:rgb(211, 56, 56);
 }
 
 .card-body .btnEli:hover{
-    background-color: brown;
-    border-color: brown;
+    background-color: rgb(189, 49, 49);
+    border-color:  rgb(189, 49, 49);
+}
+
+.card-body .btnAct{
+    margin-top: -27%;
+    margin-left: 50%;
+    background-color: rgb(231, 120, 45);
+    border-color:rgb(231, 120, 45);
+}
+
+.card-body .btnAct:hover{
+    background-color: rgb(216, 106, 32);
+    border-color:rgb(216, 106, 32);
 }
 
 @media(min-width:760px){
