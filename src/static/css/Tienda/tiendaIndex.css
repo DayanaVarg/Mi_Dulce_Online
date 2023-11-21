@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+.btnA{
+    margin-left: 90%;
+}
+.title{
+    margin-top: 35px;
+    font-size: 30px;
+    line-height: 38px;
+    padding-bottom: 35px;
+    opacity:.9;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+.form-group label{
+    padding-left: 20px;
+    padding-right: 5px;
+    font-family: "Poppins", sans-serif;
+    opacity:.9;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.form-group select{
+    border-radius: 8px;
+    font-size: 13px;
+    padding: 3px;
+}
+
+.form-group option{
+    border-radius: 8px;
+    font-size: 13px;
+    padding: 3px;
+}
+
+/*cards*/
+.card{
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.5);
+
+  
+}
+.colm {
+    padding: 12px 0;
+      column-count: 4;
+  }
+
+.img2{
+    margin: auto;
+    height: 260px;
+    width: 280px;
+    transition:  .3s ease-in-out;
+}
+
+.card-body{
+    margin-top: -35px;
+}
+
+.card-body .btnEli{
+    background-color: rgb(211, 56, 56);
+    border-color:rgb(211, 56, 56);
+}
+
+.card-body .btnEli:hover{
+    background-color: rgb(189, 49, 49);
+    border-color:  rgb(189, 49, 49);
+}
+
+.card-body .btnAct{
+    margin-top: -27%;
+    margin-left: 50%;
+    background-color: rgb(231, 120, 45);
+    border-color:rgb(231, 120, 45);
+}
+
+.card-body .btnAct:hover{
+    background-color: rgb(216, 106, 32);
+    border-color:rgb(216, 106, 32);
+}
+
+@media(min-width:760px){
+    .carousel{
+        margin: 0px 30px;
+    }
+
+    .carrusel{
+        width:  275px;
+    }
+
+    .carrusel a img{
+        width: 250px;
+    }
+
+  
+}
+

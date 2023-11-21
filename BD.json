@@ -1,0 +1,171 @@
+{
+  "Tienda": [
+    {
+      "id": 1,
+      "Nombre": "Dulces Don Javier",
+      "Email": "Javier@gmail.com",
+      "Región": "Prueba",
+      "Dirección": "Calle 52 Chapinero",
+      "Telefono": "3044028836",
+      "Password": "123"
+    },
+    {
+      "Nombre": "asd",
+      "Email": "asdasd@g.com",
+      "Región": "asd",
+      "Dirección": "asd",
+      "Telefono": "123",
+      "Password": "123",
+      "id": 2
+    },
+    {
+      "Nombre": "PRUEBA",
+      "Email": "herreradiazdeivistiven2004@gmail.com",
+      "Región": "nbjbij",
+      "Dirección": "asdasdasd",
+      "Telefono": "3044028836",
+      "Password": "123",
+      "id": 3
+    },
+    {
+      "Nombre": "a",
+      "Email": "a@g.com",
+      "Región": "a",
+      "Dirección": "a",
+      "Telefono": "1",
+      "Password": "123",
+      "id": 4
+    },
+    {
+      "Nombre": "s",
+      "Email": "s@g.com",
+      "Región": "s",
+      "Dirección": "s",
+      "Telefono": "1",
+      "Password": "123",
+      "id": 5
+    }
+  ],
+  "Productos": [
+    {
+      "Nombre": "Chicles",
+      "Descripción": "Ricos y en sus diferentes presentaciones",
+      "Categoría": "Colombina",
+      "Precio": "123123",
+      "id_tienda": 1,
+      "id": 2
+    },
+    {
+      "Nombre": "Gomitas",
+      "Descripción": "Ricas para pasar el rato",
+      "Categoría": "Colombina",
+      "Precio": "123123",
+      "id_tienda": 1,
+      "id": 3
+    },
+    {
+      "Nombre": "Chocolatina",
+      "Descripción": "Para calmar ese antojo!",
+      "Categoría": "Colombina",
+      "Precio": "1",
+      "id_tienda": 4,
+      "id": 4
+    },
+    {
+      "Nombre": "Chocoramo",
+      "Descripción": "Una deliciosa torta de bizcocho cubierta de chocolate",
+      "Categoría": "Ramo",
+      "Precio": "2000",
+      "id_tienda": 1,
+      "id": 21
+    },
+    {
+      "Nombre": "Bocadillo Veleño",
+      "Descripción": "Un dulce típico de la región de Vélez hecho a base de guayaba y panela",
+      "Categoría": "Dulces",
+      "Precio": "1000",
+      "id_tienda": 1,
+      "id": 22
+    },
+    {
+      "Nombre": "Bon Bon Bum",
+      "Descripción": "Un chupetín con sabor a frutas que viene en diferentes presentaciones",
+      "Categoría": "Dulces",
+      "Precio": "500",
+      "id_tienda": 1,
+      "id": 23
+    },
+    {
+      "Nombre": "Chocobreak",
+      "Descripción": "Un snack de galleta con relleno de chocolate",
+      "Categoría": "Snacks",
+      "Precio": "1500",
+      "id_tienda": 1,
+      "id": 24
+    },
+    {
+      "Nombre": "Chocoflan",
+      "Descripción": "Un postre que combina flan y bizcocho de chocolate",
+      "Categoría": "Postres",
+      "Precio": "3000",
+      "id_tienda": 1,
+      "id": 25
+    },
+    {
+      "Nombre": "Chocorramo",
+      "Descripción": "Una barra de bizcocho cubierta de chocolate",
+      "Categoría": "Postres",
+      "Precio": "2000",
+      "id_tienda": 1,
+      "id": 26
+    },
+    {
+      "Nombre": "Colombina Mix",
+      "Descripción": "Una bolsa de caramelos surtidos con diferentes sabores",
+      "Categoría": "Dulces",
+      "Precio": "1000",
+      "id_tienda": 1,
+      "id": 27
+    },
+    {
+      "Nombre": "Deditos",
+      "Descripción": "Un snack de galleta con relleno de arequipe",
+      "Categoría": "Snacks",
+      "Precio": "2000",
+      "id_tienda": 1,
+      "id": 28
+    }
+  ],
+  "Venta": [
+    {
+      "Nombre": "Dayana",
+      "Apellido": "Vargas",
+      "Correo": "Dayana777@gmail.com",
+      "Telefono": "300574682",
+      "Región": "Amazonas jaskjaks",
+      "Dirección": "Calle 52",
+      "id_producto": 1,
+      "id": 1
+    },
+    {
+      "Nombre": "a",
+      "Apellido": "a",
+      "Correo": "a@g.com",
+      "Telefono": "2",
+      "Región": "a",
+      "Dirección": "a",
+      "id_producto": "4",
+      "id": 2
+    },
+    {
+      "Nombre": "f",
+      "Apellido": "f",
+      "Correo": "a@g.com",
+      "Telefono": "2",
+      "Región": "a",
+      "Dirección": "a",
+      "id_producto": "3",
+      "id": 3
+    }
+  ]
+}

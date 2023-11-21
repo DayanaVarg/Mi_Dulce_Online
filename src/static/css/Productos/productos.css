@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+.title{
+    margin-top: 35px;
+    font-size: 30px;
+    line-height: 38px;
+    padding-bottom: 35px;
+    opacity:.9;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+.form-group label{
+    padding-left: 20px;
+    padding-right: 5px;
+    font-family: "Poppins", sans-serif;
+    opacity:.9;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.form-group select{
+    border-radius: 8px;
+    font-size: 13px;
+    padding: 3px;
+}
+
+.form-group option{
+    border-radius: 8px;
+    font-size: 13px;
+    padding: 3px;
+}
+
+/*descripcion*/
+.container{
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+    height: 500px;
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.conImg{
+    height: 380px;
+    padding-top: 13px;
+    border: 2px solid #ffa153;
+    box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.imgPro{
+    width: 350px;
+    height: 370px;
+}
+
+.decs{
+    width: 490px;
+    padding-left: 35px;
+}
+
+.decs h1{
+    color: #571b9c;
+    margin-top: 25px;
+    font-size: 35px;
+    line-height: 38px;
+    padding-bottom: 25px;
+    opacity:.9;
+    font-weight: 300;
+}
+
+.texto{
+    color: #494846;
+    font-size: 19px;
+    line-height: 20px;
+    opacity:.9;
+    font-weight: 500;
+}
+
+.carac{
+    margin-left: 40px;
+    color: #494846;
+    font-size: 19px;
+    line-height: 20px;
+    opacity:.9;
+    font-weight: 500;
+}
+
+.info{
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+.precio{
+    color: #571b9c;
+    font-size: 30px;
+}
+
+.p{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 5px;;
+    color: #494846;
+}
+
+.row{
+    margin-top: 2px;
+}
+
+.btn-primary{
+    background-color:#e7912e;
+    border-color: #e7912e;
+}
+
+.btn-primary:hover{
+    background-color: #ec7506;
+    border-color: #ec7506;
+}
+.btn-primary{
+    .active{
+        background-color: #ec7506;
+        border-color: #ec7506;
+    }
+    
+}
