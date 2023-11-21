@@ -111,7 +111,20 @@ const IndexTienda = () => {
                                 >
                                     Eliminar
                                 </button>
+
+                                <button
+                  className="btn btn-success"
+                  onClick={() => {
+                  const queryParams = `?productId=${record.id}`;
+                  navigate(`/EditProduct${queryParams}`);
+                    }}
+                      >  
+                update
+                    </button>
+
+                                
                             </div>
+                            
                         </div>
                     </div>
                 ))}

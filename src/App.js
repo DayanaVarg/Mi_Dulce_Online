@@ -7,6 +7,7 @@ import Productos from './Pages/productos/productos';
 import AddProduct from './Pages/productos/AddProduct';
 import Compra from './Pages/compra/compra';
 import IndexTienda from './Pages/tienda/indexTienda'
+import EditProduct from './Pages/productos/EditProduct';
 
 // RUTAS
 
@@ -33,6 +34,8 @@ function App() {
       <Route path='/compra' exact element={<Compra/>}/>
       {/* APARTADO POR PARTE DE LA SESION INICIADA DE LA TIENDA */}
       <Route path='/home' exact element={Session ? <IndexTienda/> : <Navigate to="/login"/>}/>
+        {/* APARTADO POR PARTE DE LA SESION INICIADA DE LA TIENDA */}
+        <Route path='/EditProduct' exact element={Session ? <EditProduct/> : <Navigate to="/login"/>}/>
       
       </Routes>
     </Router>
