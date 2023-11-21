@@ -7,6 +7,7 @@ const Productos = () => {
   const [productos, setProductos] = useState([]);
   const [tiendas, setTiendas] = useState([]);
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState('');
+  const [regionSeleccionada, setRegionSeleccionada] = useState('');
   const [rangoPrecioSeleccionado, setRangoPrecioSeleccionado] = useState('');
 
   const navigate = useNavigate();
@@ -34,6 +35,21 @@ const Productos = () => {
     return tienda ? tienda.Nombre : 'Tienda no encontrada';
   };
 
+  
+
+  const getRegionTienda = (idTienda) => {
+    const tienda = tiendas.find(t => t.id === idTienda);
+    return tienda ? tienda.Región : 'Región no encontrada';
+  };
+
+  const filtrarPorRegion = (producto) => {
+    if (regionSeleccionada === '') {
+      return true;
+    } else {
+      return getRegionTienda(producto.id_tienda) === regionSeleccionada;
+    }
+  };
+  
 
 const filtrarPorCategoria = (producto) => {
     if (categoriaSeleccionada === '') {
@@ -44,6 +60,7 @@ const filtrarPorCategoria = (producto) => {
   };
 
   
+  
   const filtrarPorPrecio = (producto) => {
     if (rangoPrecioSeleccionado === '') {
       return true;
@@ -52,6 +69,7 @@ const filtrarPorCategoria = (producto) => {
       return parseInt(producto.Precio) >= parseInt(precioMinimo) && parseInt(producto.Precio) <= parseInt(precioMaximo);
     }
   };
+
 
   return (
     <div>
@@ -64,6 +82,18 @@ const filtrarPorCategoria = (producto) => {
           <option value="Ramo">Ramo</option>
           <option value="Otras">Otras</option>
         </select>
+
+        <label htmlFor="filtroRegión">Filtrar por región:</label>
+      <select onChange={(e) => setRegionSeleccionada(e.target.value)}>
+        <option value="">Todas las regiones</option>
+        <option value="Bogotá">Bogotá</option>
+        <option value="Chapinero">Chapinero</option>
+        <option value="Usme">Usme</option>
+        <option value="Pereira">Pereira</option>
+        <option value="Medellín">Medellín</option>
+        <option value="Cali">Cali</option>
+       
+      </select>
         
         <label htmlFor="filtroTienda">Filtrar por precio:</label>
         <select onChange={(e) => setRangoPrecioSeleccionado(e.target.value)}>
@@ -78,7 +108,7 @@ const filtrarPorCategoria = (producto) => {
       </div>
 
       <div className="row">
-      {productos.filter(filtrarPorCategoria).filter(filtrarPorPrecio).map((producto, index) => (
+      {productos.filter(filtrarPorCategoria).filter(filtrarPorPrecio).filter(filtrarPorRegion).map((producto, index) => (
           <div className="col-md-4" key={index}>
             <div className="card mb-4">
               <br></br>
@@ -88,6 +118,7 @@ const filtrarPorCategoria = (producto) => {
                 <p className="card-text">Categoría: {producto.Categoría}</p>
                 <p className="card-text">Precio: {producto.Precio}</p>
                 <p className="card-text">Tienda: {getNombreTienda(producto.id_tienda)}</p>
+                <p className="card-text">Región: {getRegionTienda(producto.id_tienda)}</p>
               
                 <button
                   className="btn btn-success"

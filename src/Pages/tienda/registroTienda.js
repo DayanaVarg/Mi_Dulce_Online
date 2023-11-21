@@ -59,12 +59,19 @@ function RegisterF() {
 
                             <div className="form-row mb-3">
                                 <div className="input-group col-md-6">
-                                    <input type="text" className="form-control" name="Región" onChange={e => setInputData({...inputData, Región: e.target.value})} placeholder="Región" />
-                                    <div className="input-group-append">
-                                        <div className="input-group-text">
-                                            <span className="fa fa-address-card" aria-hidden="true" />
-                                        </div>
-                                    </div>
+                   
+                                    <select
+                                    id="region"
+                                    className="form-control"
+                                    name="Región"
+                                    onChange={(e) => setInputData({ ...inputData, Región: e.target.value })}
+                                    >
+                                    <option value="">Selecciona una región</option>
+                                    <option value="Bogotá">Bogotá</option>
+                                    <option value="Medellín">Medellín</option>
+                                    <option value="Cali">Cali</option>
+                                    <option value="Pereira">Pereira</option>
+                                    </select>
                                 </div>
                                 <div className="input-group col-md-6">
                                     <input type="text" className="form-control" name="Dirección" onChange={e => setInputData({...inputData, Dirección: e.target.value})} placeholder="Dirección" />
