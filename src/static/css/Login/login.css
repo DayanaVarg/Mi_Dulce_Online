@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
 .login-box{
     box-shadow: 3px 3px 5px 2px rgba(108, 48, 148, 0.452);   
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    
 }
 
 .login-logo{

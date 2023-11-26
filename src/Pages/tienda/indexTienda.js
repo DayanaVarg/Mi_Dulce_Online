@@ -70,8 +70,6 @@ const IndexTienda = () => {
       <div>
         <Navbar />
         <h1 className="title">Tus productos</h1>
-        <br></br>
-        <button type="button" onClick={cerrarSesion} className="btn btn-danger">Cerrar Sesión</button>
         <Link to="/AddProduct"><button className="btn btn-primary btnA">Añadir</button></Link>
         <div className="form-group text-center">
           <label htmlFor="filtroTienda">Filtrar por categoría:</label>
@@ -93,34 +91,34 @@ const IndexTienda = () => {
           </select>
         </div>
         <br></br>
-        <div className="row">
+        <div className="card-columns colms">
           {records.filter(filtrarPorCategoria).filter(filtrarPorPrecio).map((record, index) => (
-                    <div className="col-md-4" key={index}>
-                        <div className="card mb-4">
+                    <div key={index}>
+                        <div className="card cardT mb-4">
                             
                             <div className="card-body">
                                 <br></br>
                                 <h2 className="card-title">{record.Nombre}</h2>
-                                <p className="card-text">Descripción: {record.Descripción}</p>
-                                <p className="card-text">Categoría: {record.Categoría}</p>
-                                <p className="card-text">Precio: {record.Precio}</p>
-                                <p className="card-text">ID Tienda: {record.id_tienda}</p>
+                                <p className="card-text desc">{record.Descripción}</p>
+                                <p className="card-text titl">Categoría: <small>{record.Categoría}</small></p>
+                                <p className="card-text precio1">${record.Precio}<small>c/u</small></p>
+  
                                 <button
-                                    className="btn btn-danger"
+                                    className="btn btnEli  col-5"
                                     onClick={() => handleDelete(record.id)}
                                 >
                                     Eliminar
                                 </button>
 
                                 <button
-                  className="btn btn-success"
-                  onClick={() => {
-                  const queryParams = `?productId=${record.id}`;
-                  navigate(`/EditProduct${queryParams}`);
-                    }}
-                      >  
-                update
-                    </button>
+                                className="btn btn-primary btnAct btn-block col-5"
+                                onClick={() => {
+                                const queryParams = `?productId=${record.id}`;
+                                navigate(`/EditProduct${queryParams}`);
+                                  }}
+                                    >  
+                              Actualizar
+                                  </button>
 
                                 
                             </div>

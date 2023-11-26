@@ -152,14 +152,6 @@
       "Precio": "1500",
       "id_tienda": 6,
       "id": 29
-    },
-    {
-      "Nombre": "a",
-      "Descripción": "sasa",
-      "Categoría": "Colombina",
-      "Precio": "3000",
-      "id_tienda": 1,
-      "id": 30
     }
   ],
   "Venta": [

@@ -39,13 +39,15 @@
 
 /*cards*/
 .card{
-    box-shadow:0 2px 5px 0 rgba(0,0,0,0.5);
-
-  
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.5); 
 }
-.colm {
-    padding: 12px 0;
+
+.cardT{
+    height: 320px;
+}
+.colms {
       column-count: 4;
+      align-items: baseline;
   }
 
 .img2{
@@ -62,6 +64,8 @@
 .card-body .btnEli{
     background-color: rgb(211, 56, 56);
     border-color:rgb(211, 56, 56);
+    color: aliceblue;
+    margin-bottom: -12%;
 }
 
 .card-body .btnEli:hover{
@@ -70,8 +74,8 @@
 }
 
 .card-body .btnAct{
-    margin-top: -27%;
-    margin-left: 50%;
+    margin-top: -5%;
+    margin-left: 60%;
     background-color: rgb(231, 120, 45);
     border-color:rgb(231, 120, 45);
 }

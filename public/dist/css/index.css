@@ -194,10 +194,10 @@ img {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
 }
-
-.nav__logout {
-    margin-left: 23px;
-    margin-top: 40px;
+.btnSalir{
+    border: none;
+    align-items: center;
+    background-color: transparent;
 }
 
 .nav__dropdown {
