@@ -9,6 +9,7 @@ function Compra(props) {
     const location = useLocation();
     const queryParams = new URLSearchParams(location.search);
     const selectedProductId = queryParams.get("productId");
+    const productIdAsInt = parseInt(selectedProductId, 10);
 
     const [inputData, setInputData] = useState({
         Nombre: '',
@@ -17,7 +18,7 @@ function Compra(props) {
         Telefono: '',
         Región: '',
         Dirección: '', 
-        id_producto: selectedProductId,
+        id_producto: productIdAsInt,
     })
 
     const navigate = useNavigate();

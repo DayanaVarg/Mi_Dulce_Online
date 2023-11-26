@@ -31,6 +31,12 @@ const Navbar = () => {
 
                     <div className="nav__items">
                         <h3 className="nav__subtitle">Menu</h3>
+                        <div class="nav__dropdown">
+                            <Link to={"/pedidos"} class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>
+                                <span class="nav__name">Pedidos</span>
+                            </Link>
+                        </div>
                         <Link to={"/"} class="nav__link">
                             <button class="btnSalir" type="button" onClick={cerrarSesion}>
                             <i class="bx bx-exit nav__icon"></i>

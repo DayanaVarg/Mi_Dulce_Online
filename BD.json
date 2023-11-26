@@ -156,23 +156,13 @@
   ],
   "Venta": [
     {
-      "Nombre": "Dayana",
-      "Apellido": "Vargas",
-      "Correo": "Dayana777@gmail.com",
-      "Telefono": "300574682",
-      "Región": "Amazonas jaskjaks",
-      "Dirección": "Calle 52",
-      "id_producto": 1,
-      "id": 1
-    },
-    {
       "Nombre": "a",
       "Apellido": "a",
       "Correo": "a@g.com",
       "Telefono": "2",
       "Región": "a",
       "Dirección": "a",
-      "id_producto": "4",
+      "id_producto": 4,
       "id": 2
     },
     {
@@ -182,7 +172,7 @@
       "Telefono": "2",
       "Región": "a",
       "Dirección": "a",
-      "id_producto": "3",
+      "id_producto": 3,
       "id": 3
     },
     {
@@ -192,7 +182,7 @@
       "Telefono": "3044028836",
       "Región": "bogotá",
       "Dirección": "asdasdasd",
-      "id_producto": "4",
+      "id_producto": 4,
       "id": 4
     },
     {
@@ -202,7 +192,7 @@
       "Telefono": "3044028836",
       "Región": "Bogotá",
       "Dirección": "asdasdasd",
-      "id_producto": "21",
+      "id_producto": 21,
       "id": 5
     },
     {
@@ -212,7 +202,7 @@
       "Telefono": "305115",
       "Región": "",
       "Dirección": "asdasdasd",
-      "id_producto": "24",
+      "id_producto": 24,
       "id": 6
     },
     {
@@ -222,8 +212,18 @@
       "Telefono": "3058179543",
       "Región": "Bogotá",
       "Dirección": "asdasdasd",
-      "id_producto": "24",
+      "id_producto": 24,
       "id": 7
+    },
+    {
+      "Nombre": "Dulces Don Javier",
+      "Apellido": "qwqw",
+      "Correo": "qwqwq1w@gmai",
+      "Telefono": "1212121221",
+      "Región": "Medellín",
+      "Dirección": "qaqwsq",
+      "id_producto": 29,
+      "id": 8
     }
   ]
 }
