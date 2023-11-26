@@ -32,6 +32,79 @@
     font-size: 13px;
     padding: 3px;
 }
+/*Todos loas productos*/
+.card{
+    height: 330px;
+}
+.card-title{
+    color: #571b9c;
+    font-size: 23px;
+    line-height: 30px;
+    padding-bottom: 5px;
+    opacity:.9;
+    font-weight: 300;
+    margin-top: 5%;
+}
+
+.desc{
+    color: #494846;
+    font-size: 15px;
+    line-height: 20px;
+    opacity:.9;
+    font-weight: 500;
+    margin-bottom: 10%;
+}
+
+.titl{
+    color: #571b9c;
+    font-size: 15px;
+    line-height: 20px;
+    opacity:.9;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.titl small{
+    color: #494846;
+    font-size: 15px;
+    line-height: 20px;
+    opacity:.9;
+    font-weight: 500;
+    
+}
+
+.region{
+    color: #494846;
+    font-size: 20px;
+    line-height: 20px;
+    opacity:.9;
+    font-weight: 500;
+    margin-top: 10%;
+
+}
+
+.precio1{
+    color: #571b9c;
+    font-size: 25px;
+    margin-top: 15%;
+}
+
+.precio1 small{
+    color: #494846;
+    font-size: 15px;
+    line-height: 20px;
+    opacity:.9;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.btn-c{
+    margin-left: 67%;
+    margin-top: -30%;
+}
+
+
 
 /*descripcion*/
 .container{
@@ -64,6 +137,7 @@
     width: 490px;
     padding-left: 35px;
 }
+
 
 .decs h1{
     color: #571b9c;
@@ -111,8 +185,9 @@
     color: #494846;
 }
 
-.row{
+.card-columns{
     margin-top: 2px;
+    column-count: 4;
 }
 
 .btn-primary{

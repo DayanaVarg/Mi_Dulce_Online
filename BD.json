@@ -132,17 +132,9 @@
       "Nombre": "Colombina Mix",
       "Descripción": "Una bolsa de caramelos surtidos con diferentes sabores",
       "Categoría": "Dulces",
-      "Precio": "1000",
+      "Precio": "1500",
       "id_tienda": 1,
       "id": 27
-    },
-    {
-      "Nombre": "Deditos",
-      "Descripción": "Un snack de galleta con relleno de arequipe",
-      "Categoría": "Snacks",
-      "Precio": "2000",
-      "id_tienda": 1,
-      "id": 28
     },
     {
       "Nombre": "PRUEBA",
@@ -151,6 +143,14 @@
       "Precio": "1500",
       "id_tienda": 6,
       "id": 29
+    },
+    {
+      "Nombre": "a",
+      "Descripción": "sasa",
+      "Categoría": "Colombina",
+      "Precio": "3000",
+      "id_tienda": 1,
+      "id": 30
     }
   ],
   "Venta": [
@@ -183,6 +183,16 @@
       "Dirección": "a",
       "id_producto": "3",
       "id": 3
+    },
+    {
+      "Nombre": "Deivi",
+      "Apellido": "Stiven",
+      "Correo": "a@g.com",
+      "Telefono": "3044028836",
+      "Región": "bogotá",
+      "Dirección": "asdasdasd",
+      "id_producto": "4",
+      "id": 4
     }
   ]
 }

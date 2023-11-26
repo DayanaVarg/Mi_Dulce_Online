@@ -107,21 +107,21 @@ const filtrarPorCategoria = (producto) => {
       
       </div>
 
-      <div className="row">
+      <div className="card-columns ">
       {productos.filter(filtrarPorCategoria).filter(filtrarPorPrecio).filter(filtrarPorRegion).map((producto, index) => (
-          <div className="col-md-4" key={index}>
+          <div className='' key={index}>
             <div className="card mb-4">
               <br></br>
               <div className="card-body">
                 <h2 className="card-title">{producto.Nombre}</h2>
-                <p className="card-text">{producto.Descripción}</p>
-                <p className="card-text">Categoría: {producto.Categoría}</p>
-                <p className="card-text">Precio: {producto.Precio}</p>
-                <p className="card-text">Tienda: {getNombreTienda(producto.id_tienda)}</p>
-                <p className="card-text">Región: {getRegionTienda(producto.id_tienda)}</p>
+                <p className="card-text desc">{producto.Descripción}</p>
+                <p className="card-text titl">Categoría: <small> {producto.Categoría}</small></p>
+                <p className="card-text titl">Tienda: <small>{getNombreTienda(producto.id_tienda)}</small></p>
+                <p className="card-text region">{getRegionTienda(producto.id_tienda)}</p>
+                <p className="card-text precio1">${producto.Precio}<small>c/u</small></p>
               
                 <button
-                  className="btn btn-success"
+                  className="btn btn-primary btn-c"
                   onClick={() => {
                   const queryParams = `?productId=${producto.id}`;
                   navigate(`/compra${queryParams}`);
