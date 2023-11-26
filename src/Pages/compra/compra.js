@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {Link, useNavigate, useLocation} from 'react-router-dom';
 import axios from 'axios'
+import '../../static/css/Compra/registrar.css';
 
 
 function Compra(props) {
@@ -40,13 +41,13 @@ function Compra(props) {
                     <div className="register-logo">
                         <Link to={"#"}><b>Realizar Compra</b></Link>
                     </div>
-                    <div className="card">
+                    <div className="card card2">
                         <div className="card-body register-card-body">
                             <p className="login-box-msg">Ingresa tus datos</p>
                             <form onSubmit={handleSubmit}>
                                 <div className="form-row mb-3">
                                     <div className="input-group col-md-6">
-                                        <input type="text" className="form-control" id="Nombre" name="Nombre" onChange={e => setInputData({ ...inputData, Nombre: e.target.value })} placeholder="Nombre" />
+                                        <input type="text" className="form-control" id="Nombre" name="Nombre" onChange={e => setInputData({ ...inputData, Nombre: e.target.value })} placeholder="Nombre" required />
                                         <div className="input-group-append">
                                             <div className="input-group-text">
                                                 <span className="fas fa-user" />
@@ -56,16 +57,17 @@ function Compra(props) {
 
                       
                                     <div className="input-group col-md-6">
-                                        <input type="text" className="form-control" id="Apellido" name="Apellido" onChange={e => setInputData({ ...inputData, Apellido: e.target.value })} placeholder="Apellido" />
+                                        <input type="text" className="form-control" id="Apellido" name="Apellido" onChange={e => setInputData({ ...inputData, Apellido: e.target.value })} placeholder="Apellido" required/>
                                         <div className="input-group-append">
                                             <div className="input-group-text">
                                                 <span className="fas fa-user" />
                                             </div>
                                         </div>
                                     </div>
-
+                                </div>
+                                <div className="form-row mb-3">
                                     <div className="input-group col-md-6 ">
-                                        <input type="email" className="form-control" id="Correo" name="Correo" onChange={e => setInputData({ ...inputData, Correo: e.target.value })} placeholder="Correo" />
+                                        <input type="email" className="form-control" id="Correo" name="Correo" onChange={e => setInputData({ ...inputData, Correo: e.target.value })} placeholder="Correo" required />
                                         <div className="input-group-append">
                                             <div className="input-group-text">
                                                 <span className="fas fa-envelope" />
@@ -74,28 +76,36 @@ function Compra(props) {
                                     </div>
         
                                     <div className="input-group col-md-6">
-                                        <input type="number" className="form-control" id="Telefono" name="Telefono" onChange={e => setInputData({ ...inputData, Telefono: e.target.value })} placeholder="Telefono" />
+                                        <input type="tel" className="form-control" id="Telefono" name="Telefono" onChange={e => setInputData({ ...inputData, Telefono: e.target.value })} placeholder="Telefono" pattern="[0-9]{10}" maxlength="12" 
+                                        title="La información ingresada no coincide con un número de celular" required/>
                                         <div className="input-group-append">
                                             <div className="input-group-text">
                                                 <span className="fa fa-mobile" aria-hidden="true"/>
                                             </div>
                                         </div>
                                     </div>
-
+                                </div>
+                                <div className="form-row mb-3">
                                     <div className="input-group col-md-6">
-                                        <input type="text" className="form-control" id="Región" name="Región" onChange={e => setInputData({ ...inputData, Región: e.target.value })} placeholder="Región" />
+                                        <select type="text" className="form-control" id="Región" name="Región" onChange={e => setInputData({ ...inputData, Región: e.target.value })} placeholder="Región" required>
+                                            <option value="">Selecciona una región</option>
+                                            <option value="Bogotá">Bogotá</option>
+                                            <option value="Medellín">Medellín</option>
+                                            <option value="Cali">Cali</option>
+                                            <option value="Pereira">Pereira</option>
+                                        </select>
                                         <div className="input-group-append">
                                             <div className="input-group-text">
-                                                <span className="fa fa-mobile" aria-hidden="true"/>
+                                                <span className="fa fa-address-card" aria-hidden="true" />
                                             </div>
                                         </div>
                                     </div>
 
                                     <div className="input-group col-md-6">
-                                        <input type="text" className="form-control" id="Dirección" onChange={e => setInputData({ ...inputData, Dirección: e.target.value })} name="Dirección" placeholder="Dirección" />
+                                        <input type="text" className="form-control" id="Dirección" onChange={e => setInputData({ ...inputData, Dirección: e.target.value })} name="Dirección" placeholder="Dirección" required />
                                         <div className="input-group-append">
                                             <div className="input-group-text">
-                                                <span className="fa fa-mobile" aria-hidden="true"/>
+                                                <span className="fa fa-address-card" aria-hidden="true" />  
                                             </div>
                                         </div>
                                     </div>

@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import Cookies from 'universal-cookie';
+import '../../static/css/Login/login.css';
+
 
 const baseUrl = "http://localhost:3040/Tienda";
 const cookies = new Cookies();
 
 const Login = () => {
   const [form, setForm] = useState({
-    Nombre: '',
+    Emaiil: '',
     Password: ''
   });
 
@@ -25,7 +27,7 @@ const Login = () => {
     try {
       const response = await axios.get(baseUrl, {
         params: {
-          Nombre: form.Nombre,
+          Email: form.Email,
           Password: form.Password
         }
       });
@@ -36,7 +38,7 @@ const Login = () => {
       if (response.data.length > 0) {
         var respuesta = response.data[0];
         cookies.set('id', respuesta.id, { path: "/" });
-        cookies.set('Nombre', respuesta.Nombre, { path: "/" });
+        cookies.set('Email', respuesta.Email, { path: "/" });
         cookies.set('Password', respuesta.Password, { path: "/" });
 
         alert(`Bienvenido ${respuesta.Nombre}`);
@@ -51,22 +53,23 @@ const Login = () => {
   }
 
   console.log('id' + cookies.get('id'));
-  console.log('nombre' + cookies.get('Nombre'));
+  console.log('email' + cookies.get('Email'));
   console.log('Contraseña' + cookies.get('Password'));
 
   return (
     <div className="register-page">
       <div className="login-box">
-
-        
-
-        <div className="card">
+        <div className="login-logo">
+          <b>Iniciar Sesión</b>
+        </div>
+       
+        <div className="cardLogin">
           <div className="card-body login-card-body">
             <p className="login-box-msg">¡Bienvenido! Inicia sesión para empezar</p>
 
             <form>
               <div className="input-group mb-3">
-                <input type="text" className="form-control" id="Nombre" name="Nombre" onChange={handleChange} placeholder="Usuario" />
+                <input type="email" className="form-control" id="Email" name="Email" onChange={handleChange} placeholder="Usuario" required/>
                 <div className="input-group-append">
                   <div className="input-group-text">
                     <span className="fas fa-envelope" />
@@ -75,7 +78,7 @@ const Login = () => {
               </div>
 
               <div className="input-group mb-3">
-                <input type="password" className="form-control" id="Password" name="Password" onChange={handleChange} placeholder="Contraseña" />
+                <input type="password" className="form-control" id="Password" name="Password" onChange={handleChange} placeholder="Contraseña" required/>
                 <div className="input-group-append">
                   <div className="input-group-text">
                     <span className="fas fa-lock" />

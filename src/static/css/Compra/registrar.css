@@ -1,0 +1,61 @@
+.register-box{
+    margin-bottom: 5%;
+    box-shadow: 3px 3px 5px 2px rgba(108, 48, 148, 0.452);   
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 600px;
+
+}
+
+.register-logo{
+    background-color: #a406ec;
+    height: 120px;
+    margin-bottom: 0;
+    padding: 18px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.register-logo b{
+    color: aliceblue;
+}
+
+.login-box-msg{
+    font-family: 'Mukta', sans-serif;
+}
+
+.card2{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 280px;
+}
+
+.register-card-body{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+
+.row{
+    margin-top: 6%
+}
+
+
+.btn-secondary{
+
+    background-color:#ad2ee7;
+    border-color: #ad2ee7
+}
+
+.btn-secondary:hover{
+    background-color: #a406ec;
+    border-color: #a406ec;;
+}
+
+.mb-0{
+    text-decoration: none;
+    margin-top: 5%;
+
+}

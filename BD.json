@@ -53,6 +53,15 @@
       "Telefono": "54",
       "Password": "132",
       "id": 6
+    },
+    {
+      "Nombre": "A",
+      "Email": "s@g.com",
+      "Región": "Cali",
+      "Dirección": "A",
+      "Telefono": "3058179543",
+      "Password": "aP1013106777",
+      "id": 7
     }
   ],
   "Productos": [
@@ -193,6 +202,36 @@
       "Dirección": "asdasdasd",
       "id_producto": "4",
       "id": 4
+    },
+    {
+      "Nombre": "Deivi",
+      "Apellido": "Stiven",
+      "Correo": "a@g.com",
+      "Telefono": "3044028836",
+      "Región": "Bogotá",
+      "Dirección": "asdasdasd",
+      "id_producto": "21",
+      "id": 5
+    },
+    {
+      "Nombre": "q",
+      "Apellido": "q",
+      "Correo": "a@g.com",
+      "Telefono": "305115",
+      "Región": "",
+      "Dirección": "asdasdasd",
+      "id_producto": "24",
+      "id": 6
+    },
+    {
+      "Nombre": "q",
+      "Apellido": "q",
+      "Correo": "a@g.com",
+      "Telefono": "3058179543",
+      "Región": "Bogotá",
+      "Dirección": "asdasdasd",
+      "id_producto": "24",
+      "id": 7
     }
   ]
 }
