@@ -112,8 +112,8 @@ const filtrarPorCategoria = (producto) => {
           <div className='' key={index}>
             
              <div className="card cardp mb-3" >
-
-                    <img class="card-img-top" src={`/dist/img/carousel/${producto.Imagen}`} alt="Card image cap"/>
+            
+             <img class="card-img-top" src={`${producto.imagenUrl}`} alt="Card image cap" />
                     <div class="card-body">
                       <h5 class="card-title">{producto.Nombre}</h5>
                       <p className="card-text desc">{producto.Descripción}</p>

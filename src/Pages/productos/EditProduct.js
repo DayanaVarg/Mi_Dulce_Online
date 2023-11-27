@@ -97,6 +97,18 @@ const location = useLocation();
                                 </div>
 
                                 <div>
+                                <label>Imagen</label>
+                                    <div className="input-group mb-3">
+                                    <input type="text" className="form-control" name="imagenUrl" value={data.imagenUrl} onChange={e => setData({...data, imagenUrl: e.target.value})} placeholder="imagenUrl" required />
+                                        <div className="input-group-append">
+                                            <div className="input-group-text">
+                                                <span className="fas fa-envelope" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
                                 <label>Descripción</label>
                                     <div className="input-group mb-3">
                                         <textarea type="text"  className="form-control" rows="4" name="Descripción" value={data.Descripción} onChange={e => setData({...data, Descripción: e.target.value})} placeholder="Descripción" required />

@@ -62,117 +62,111 @@
       "Telefono": "3058179543",
       "Password": "aP1013106777",
       "id": 7
+    },
+    {
+      "Nombre": "Prueba",
+      "Email": "s@g.com",
+      "Región": "Bogotá",
+      "Dirección": "Prueba",
+      "Telefono": "3044028836",
+      "Password": "1Am123456789",
+      "id": 8
     }
   ],
   "Productos": [
     {
-      "Nombre": "a",
-      "Descripción": "a",
-      "Imagen": "./dist/img/carousel/gomitas2.png",
+      "Nombre": "Chicles",
+      "Descripción": "Ricos y en sus diferentes presentaciones",
+      "imagenUrl": "https://th.bing.com/th/id/R.5af19ad0331998f17759c1b80b86dc61?rik=CE0YI0tl4rqDPw&riu=http%3a%2f%2fpngimg.com%2fuploads%2fchewing_gum%2fchewing_gum_PNG12.png&ehk=SbTWmsV%2bSR9%2bemt247pSKGPvCL48so7%2bj4%2fBmQBJJk0%3d&risl=&pid=ImgRaw&r=0",
       "Categoría": "Colombina",
-      "Precio": "1",
+      "Precio": "123123",
       "id_tienda": 1,
-      "id": 5
+      "id": 2
     },
     {
-      "Nombre": "a",
-      "Descripción": "a",
-      "Imagen": "",
+      "Nombre": "Gomitas",
+      "Descripción": "Ricas para pasar el rato",
+      "imagenUrl": "https://th.bing.com/th/id/R.a3e83271f69619e07a8eaab58793e2ef?rik=Gp7QD8%2blsV6roA&pid=ImgRaw&r=0",
       "Categoría": "Colombina",
-      "Precio": "-1",
+      "Precio": "123123",
+      "id_tienda": 5,
+      "id": 3
+    },
+    {
+      "Nombre": "Chocoramo",
+      "Descripción": "Una deliciosa torta de bizcocho cubierta de chocolate",
+      "imagenUrl": "https://mercaldas.vtexassets.com/arquivos/ids/1296846/Chocoramo-RAMO-x55-g_114015.jpg?v=638017928700870000",
+      "Categoría": "Ramo",
+      "Precio": "2000",
       "id_tienda": 1,
-      "id": 6
+      "id": 4
     },
     {
-      "Nombre": "s",
-      "Descripción": "d",
-      "Categoría": "Colombina",
-      "Precio": "1",
+      "Nombre": "Bocadillo Veleño",
+      "Descripción": "Un dulce típico de la región de Vélez hecho a base de guayaba y panela",
+      "imagenUrl": "https://th.bing.com/th/id/OIP.WyrWw6uJEqKppAdqUXdZ4gHaEi?rs=1&pid=ImgDetMain",
+      "Categoría": "Dulces",
+      "Precio": "1000",
       "id_tienda": 1,
-      "id": 7
-    },
-    {
-      "Nombre": "a",
-      "Descripción": "s",
-      "Imagen": {},
-      "Categoría": "Colombina",
-      "Precio": "1",
-      "id_tienda": 1,
-      "id": 20
-    },
-    {
-      "id": 21
-    },
-    {
       "id": 22
     },
     {
+      "Nombre": "Bon Bon Bum",
+      "Descripción": "Un chupetín con sabor a frutas que viene en diferentes presentaciones",
+      "imagenUrl": "https://idtodos.com/wp-content/uploads/2022/03/12003348.png",
+      "Categoría": "Dulces",
+      "Precio": "500",
+      "id_tienda": 1,
       "id": 23
     },
     {
+      "Nombre": "Chocobreak",
+      "Descripción": "Un snack de galleta con relleno de chocolate",
+      "imagenUrl": "https://domain.distrilabendicion.com/79424ad3f7b34e92b33af5309d990477/_bill/_thumbs/422_472_zoom_chocobreak-x-50.jpg",
+      "Categoría": "Snacks",
+      "Precio": "1500",
+      "id_tienda": 1,
       "id": 24
     },
     {
-      "Nombre": "s",
-      "Descripción": "g",
-      "Imagen": "",
-      "Categoría": "Colombina",
-      "Precio": "1",
+      "Nombre": "Colombina Mix",
+      "Descripción": "Una bolsa de caramelos surtidos con diferentes sabores",
+      "imagenUrl": "https://th.bing.com/th/id/R.e1335f75acb60d36d85ba489cd7fab35?rik=5jFrlKeRcQN9mQ&pid=ImgRaw&r=0",
+      "Categoría": "Dulces",
+      "Precio": "1500",
       "id_tienda": 1,
-      "id": 25
+      "id": 27
     },
     {
-      "Nombre": "a",
-      "Descripción": "s",
-      "Imagen": "",
+      "Nombre": "Revolcon",
+      "Descripción": "Dulce un poco acido!",
+      "imagenUrl": "https://candyjobs.com.co/wp-content/uploads/2022/09/REVOLCON-CARAMELO.jpg",
       "Categoría": "Colombina",
-      "Precio": "1",
-      "id_tienda": 1,
-      "id": 26
-    },
-    {
-      "Nombre": "S",
-      "Descripción": "A",
-      "Imagen": "C:\\fakepath\\Firma Beatriz.png",
-      "Categoría": "Colombina",
-      "Precio": "1",
-      "id_tienda": 1,
+      "Precio": "5000",
+      "id_tienda": 5,
       "id": 28
-    },
-    {
-      "Nombre": "a",
-      "Descripción": "sdsfs",
-      "Imagen": {},
-      "Categoría": "Ramo",
-      "Precio": "121212",
-      "id_tienda": 1,
-      "id": 29
-    },
-    {
-      "Nombre": "a",
-      "Descripción": "aadadad",
-      "Imagen": "gomitas2.png",
-      "Categoría": "Ramo",
-      "Precio": "8980",
-      "id_tienda": 1,
-      "id": 30
     }
   ],
   "Venta": [
     {
-      "Nombre": "Dulces Don Javier",
-      "Apellido": "qwqw",
-      "Correo": "qwqwq1w@gmai",
-      "Telefono": "1212121221",
+      "Nombre": "Deivi",
+      "Apellido": "Stiven",
+      "Correo": "a@g.com",
+      "Telefono": "3044028836",
       "Región": "Medellín",
-      "Dirección": "qaqwsq",
-      "id_producto": 29,
-      "id": 8
-    }
-  ],
-  "upload": [
-    {
+      "Dirección": "544",
+      "id_producto": 2,
       "id": 1
+    },
+    {
+      "Nombre": "Dayana",
+      "Apellido": "vargas",
+      "Correo": "asdasd@gmail.com",
+      "Telefono": "3044028836",
+      "Región": "Medellín",
+      "Dirección": "asdasdasd",
+      "id_producto": 28,
+      "id": 2
     }
   ]
 }

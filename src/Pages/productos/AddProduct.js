@@ -11,7 +11,7 @@ function AddProduct() {
     const [inputData, setInputData] = useState({
         Nombre: '',
         Descripción: '',
-        Imagen: '',
+        imagenUrl: '',
         Categoría: '',
         Precio: '',
         id_tienda: ''
@@ -80,13 +80,8 @@ function AddProduct() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="input-group mb-3 ">
-                                    <input type="file" className="form-control" rows="4" name="Imagen" onChange={e => setInputData({ ...inputData, Imagen: e.target.value })} placeholder="Imagen" required />
-                                    <div className="input-group-append">
-                                        <div className="input-group-text">
-                                            <span className="fas fa-envelope" />
-                                        </div>
-                                    </div>
+                                <div className="input-group mb-3">
+                                    <input type="text" className="form-control" name="imagenUrl" onChange={e => setInputData({...inputData, imagenUrl: e.target.value})} placeholder="URL de la imagen" />
                                 </div>
                             
                                 <div className="input-group mb-3 ">
