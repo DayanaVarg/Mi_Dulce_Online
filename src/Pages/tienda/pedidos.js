@@ -99,6 +99,8 @@ const Pedidos = () => {
       </div>
 
 
+
+
       <div className="card-columns">
         {ventas
           .filter(venta => {
