@@ -110,28 +110,28 @@ const filtrarPorCategoria = (producto) => {
       <div className="card-columns ">
       {productos.filter(filtrarPorCategoria).filter(filtrarPorPrecio).filter(filtrarPorRegion).map((producto, index) => (
           <div className='' key={index}>
-            <div className="card mb-4">
-              <br></br>
-              <div className="card-body">
-                <h2 className="card-title">{producto.Nombre}</h2>
-                <p className="card-text desc">{producto.Descripción}</p>
-                <p className="card-text titl">Categoría: <small> {producto.Categoría}</small></p>
-                <p className="card-text titl">Tienda: <small>{getNombreTienda(producto.id_tienda)}</small></p>
-                <p className="card-text region">{getRegionTienda(producto.id_tienda)}</p>
-                <p className="card-text precio1">${producto.Precio}<small>c/u</small></p>
-              
-                <button
-                  className="btn btn-primary btn-c"
-                  onClick={() => {
-                  const queryParams = `?productId=${producto.id}`;
-                  navigate(`/compra${queryParams}`);
-                    }}
-                      >  
-                Comprar
-                    </button>
-              
+            
+             <div className="card cardp mb-3" >
+
+                    <img class="card-img-top" src={`/dist/img/carousel/${producto.Imagen}`} alt="Card image cap"/>
+                    <div class="card-body">
+                      <h5 class="card-title">{producto.Nombre}</h5>
+                      <p className="card-text desc">{producto.Descripción}</p>
+                      <p className="card-text titl">Categoría: <small> {producto.Categoría}</small></p>
+                      <p className="card-text titl">Tienda: <small>{getNombreTienda(producto.id_tienda)}</small></p>
+                      <p className="card-text region">{getRegionTienda(producto.id_tienda)}</p>
+                      <p className="card-text precio1">${producto.Precio}<small>c/u</small></p>
+                      <button
+                        className="btn btn-primary btn-c"
+                        onClick={() => {
+                        const queryParams = `?productId=${producto.id}`;
+                        navigate(`/compra${queryParams}`);
+                          }}
+                            >  
+                      Comprar
+                      </button>
+                    </div>
               </div>
-            </div>
           </div>
         ))}
       </div>

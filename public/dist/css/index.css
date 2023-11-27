@@ -420,24 +420,16 @@ img {
   }
 
 .card-img-top{
-    height: 240px;
-    width: 225px;
+    margin-left: 15%;
+    height: 220px;
+    width: 210px;
     transition:  .3s ease-in-out;
 }
 
 .card-body{
-    margin-top: -35px;
+    margin-top: -60px;
 }
 
-.card-body .btn-primary{
-    background-color:#e7912e;
-    border-color: #e7912e;
-}
-
-.card-body .btn-primary:hover{
-    background-color: #ec7506;
-    border-color: #ec7506;
-}
 
 @media(min-width:760px){
     .carousel{

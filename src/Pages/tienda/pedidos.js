@@ -121,7 +121,7 @@ const Pedidos = () => {
         <div className="card-columns ">
         {venta.filter(filtrarPorCategoria).filter(filtrarPorRegion).map((venta, index) => (
             <div className='' key={index}>
-              <div className="card mb-4">
+              <div className="card card1 mb-4">
                 <br></br>
                 <div className="card-body">
                   <h2 className="card-title">{getNombreProducto(venta.id_producto)}</h2>

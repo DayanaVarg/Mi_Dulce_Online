@@ -11,12 +11,15 @@ function AddProduct() {
     const [inputData, setInputData] = useState({
         Nombre: '',
         Descripción: '',
+        Imagen: '',
         Categoría: '',
         Precio: '',
         id_tienda: ''
     })
 
+
     const navigate = useNavigate();
+    
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -43,7 +46,7 @@ function AddProduct() {
                 <div className="card">
                     <div className="card-body register-card-body">
                         <p className="login-box-msg">Registre un nuevo producto para su tienda</p>
-                        <form  onSubmit={handleSubmit} >
+                        <form  onSubmit={handleSubmit} encType="multipart/form-data">
                             <div className="form-row mb-3">
                                 <div className="input-group col-md-6">
                                     <input type="text" className="form-control" name="Nombre" onChange={e => setInputData({...inputData, Nombre: e.target.value})} placeholder="Nombre" required/>
@@ -74,6 +77,14 @@ function AddProduct() {
                                     <div className="input-group-append">
                                         <div className="input-group-text">
                                             <span className="fa fa-address-card" aria-hidden="true" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="input-group mb-3 ">
+                                    <input type="file" className="form-control" rows="4" name="Imagen" onChange={e => setInputData({ ...inputData, Imagen: e.target.value })} placeholder="Imagen" required />
+                                    <div className="input-group-append">
+                                        <div className="input-group-text">
+                                            <span className="fas fa-envelope" />
                                         </div>
                                     </div>
                                 </div>

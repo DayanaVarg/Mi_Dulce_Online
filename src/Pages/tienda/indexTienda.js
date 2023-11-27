@@ -95,9 +95,8 @@ const IndexTienda = () => {
           {records.filter(filtrarPorCategoria).filter(filtrarPorPrecio).map((record, index) => (
                     <div key={index}>
                         <div className="card cardT mb-4">
-                            
+                            <img class="card-img-top" src={`/dist/img/carousel/${record.Imagen}`} alt="Card image cap"/>
                             <div className="card-body">
-                                <br></br>
                                 <h2 className="card-title">{record.Nombre}</h2>
                                 <p className="card-text desc">{record.Descripción}</p>
                                 <p className="card-text titl">Categoría: <small>{record.Categoría}</small></p>

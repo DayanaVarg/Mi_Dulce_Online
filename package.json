@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-api": "json-server --watch BD.json --port 3040"
+    "start-api": "json-server --watch BD.json --port 3040 --static ./uploads"
   },
   "eslintConfig": {
     "extends": [

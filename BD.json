@@ -66,155 +66,99 @@
   ],
   "Productos": [
     {
-      "Nombre": "Chicles",
-      "Descripción": "Ricos y en sus diferentes presentaciones",
+      "Nombre": "a",
+      "Descripción": "a",
+      "Imagen": "./dist/img/carousel/gomitas2.png",
       "Categoría": "Colombina",
-      "Precio": "123123",
-      "id_tienda": 1,
-      "id": 2
-    },
-    {
-      "Nombre": "Gomitas",
-      "Descripción": "Ricas para pasar el rato",
-      "Categoría": "Colombina",
-      "Precio": "123123",
-      "id_tienda": 5,
-      "id": 3
-    },
-    {
-      "Nombre": "Cho",
-      "Descripción": "HOLA",
-      "Categoría": "Ramo",
       "Precio": "1",
-      "id_tienda": 4,
-      "id": 4
+      "id_tienda": 1,
+      "id": 5
     },
     {
-      "Nombre": "Chocoramo",
-      "Descripción": "Una deliciosa torta de bizcocho cubierta de chocolate",
-      "Categoría": "Ramo",
-      "Precio": "2000",
+      "Nombre": "a",
+      "Descripción": "a",
+      "Imagen": "",
+      "Categoría": "Colombina",
+      "Precio": "-1",
       "id_tienda": 1,
+      "id": 6
+    },
+    {
+      "Nombre": "s",
+      "Descripción": "d",
+      "Categoría": "Colombina",
+      "Precio": "1",
+      "id_tienda": 1,
+      "id": 7
+    },
+    {
+      "Nombre": "a",
+      "Descripción": "s",
+      "Imagen": {},
+      "Categoría": "Colombina",
+      "Precio": "1",
+      "id_tienda": 1,
+      "id": 20
+    },
+    {
       "id": 21
     },
     {
-      "Nombre": "Bocadillo Veleño",
-      "Descripción": "Un dulce típico de la región de Vélez hecho a base de guayaba y panela",
-      "Categoría": "Dulces",
-      "Precio": "1000",
-      "id_tienda": 1,
       "id": 22
     },
     {
-      "Nombre": "Bon Bon Bum",
-      "Descripción": "Un chupetín con sabor a frutas que viene en diferentes presentaciones",
-      "Categoría": "Dulces",
-      "Precio": "500",
-      "id_tienda": 1,
       "id": 23
     },
     {
-      "Nombre": "Chocobreak",
-      "Descripción": "Un snack de galleta con relleno de chocolate",
-      "Categoría": "Snacks",
-      "Precio": "1500",
-      "id_tienda": 1,
       "id": 24
     },
     {
-      "Nombre": "Chocoflan",
-      "Descripción": "Un postre que combina flan y bizcocho de chocolate",
-      "Categoría": "Postres",
-      "Precio": "3000",
+      "Nombre": "s",
+      "Descripción": "g",
+      "Imagen": "",
+      "Categoría": "Colombina",
+      "Precio": "1",
       "id_tienda": 1,
       "id": 25
     },
     {
-      "Nombre": "Chocorramo",
-      "Descripción": "Una barra de bizcocho cubierta de chocolate",
-      "Categoría": "Postres",
-      "Precio": "2000",
+      "Nombre": "a",
+      "Descripción": "s",
+      "Imagen": "",
+      "Categoría": "Colombina",
+      "Precio": "1",
       "id_tienda": 1,
       "id": 26
     },
     {
-      "Nombre": "Colombina Mix",
-      "Descripción": "Una bolsa de caramelos surtidos con diferentes sabores",
-      "Categoría": "Dulces",
-      "Precio": "1500",
+      "Nombre": "S",
+      "Descripción": "A",
+      "Imagen": "C:\\fakepath\\Firma Beatriz.png",
+      "Categoría": "Colombina",
+      "Precio": "1",
       "id_tienda": 1,
-      "id": 27
+      "id": 28
     },
     {
-      "Nombre": "PRUEBA",
-      "Descripción": "asd",
-      "Categoría": "Colombina",
-      "Precio": "1500",
-      "id_tienda": 6,
+      "Nombre": "a",
+      "Descripción": "sdsfs",
+      "Imagen": {},
+      "Categoría": "Ramo",
+      "Precio": "121212",
+      "id_tienda": 1,
       "id": 29
+    },
+    {
+      "Nombre": "a",
+      "Descripción": "aadadad",
+      "Imagen": "gomitas2.png",
+      "Categoría": "Ramo",
+      "Precio": "8980",
+      "id_tienda": 1,
+      "id": 30
     }
   ],
   "Venta": [
-    {
-      "Nombre": "a",
-      "Apellido": "a",
-      "Correo": "a@g.com",
-      "Telefono": "2",
-      "Región": "a",
-      "Dirección": "a",
-      "id_producto": 4,
-      "id": 2
-    },
-    {
-      "Nombre": "f",
-      "Apellido": "f",
-      "Correo": "a@g.com",
-      "Telefono": "2",
-      "Región": "a",
-      "Dirección": "a",
-      "id_producto": 3,
-      "id": 3
-    },
-    {
-      "Nombre": "Deivi",
-      "Apellido": "Stiven",
-      "Correo": "a@g.com",
-      "Telefono": "3044028836",
-      "Región": "bogotá",
-      "Dirección": "asdasdasd",
-      "id_producto": 4,
-      "id": 4
-    },
-    {
-      "Nombre": "Deivi",
-      "Apellido": "Stiven",
-      "Correo": "a@g.com",
-      "Telefono": "3044028836",
-      "Región": "Bogotá",
-      "Dirección": "asdasdasd",
-      "id_producto": 21,
-      "id": 5
-    },
-    {
-      "Nombre": "q",
-      "Apellido": "q",
-      "Correo": "a@g.com",
-      "Telefono": "305115",
-      "Región": "",
-      "Dirección": "asdasdasd",
-      "id_producto": 24,
-      "id": 6
-    },
-    {
-      "Nombre": "q",
-      "Apellido": "q",
-      "Correo": "a@g.com",
-      "Telefono": "3058179543",
-      "Región": "Bogotá",
-      "Dirección": "asdasdasd",
-      "id_producto": 24,
-      "id": 7
-    },
     {
       "Nombre": "Dulces Don Javier",
       "Apellido": "qwqw",
@@ -224,6 +168,11 @@
       "Dirección": "qaqwsq",
       "id_producto": 29,
       "id": 8
+    }
+  ],
+  "upload": [
+    {
+      "id": 1
     }
   ]
 }
