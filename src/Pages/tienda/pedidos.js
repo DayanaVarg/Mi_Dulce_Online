@@ -98,9 +98,6 @@ const Pedidos = () => {
         </select>
       </div>
 
-
-
-
       <div className="card-columns">
         {ventas
           .filter(venta => {
