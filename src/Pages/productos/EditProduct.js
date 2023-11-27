@@ -53,7 +53,7 @@ const location = useLocation();
                       
                             
                             <div className="form-row mb-3">
-                                <div className='ml-1 mr-3'>
+                                <div className='ml-1 mr-3 '>
                                 <label>Nombre</label>
                                     <div className="input-group ">
                                         <input type="text" className="form-control" name="Nombre" value={data.Nombre} onChange={e => setData({...data, Nombre: e.target.value})} placeholder="Nombre" required />
@@ -65,7 +65,7 @@ const location = useLocation();
                                 </div>
                                 </div>
 
-                                <div className='ml-4'>
+                                <div className='ml-2'>
                                 <label>Precio</label>
                                     <div className="input-group ">
                                         <input type="number" className="form-control" name="Precio" value={data.Precio} onChange={e => setData({...data, Precio: e.target.value})} placeholder="Precio" required />

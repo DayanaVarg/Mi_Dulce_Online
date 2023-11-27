@@ -73,6 +73,7 @@ function AddProduct() {
                                         <option value="" disabled selected>Selecciona una categoría</option>
                                         <option value="Colombina">Colombina</option>
                                         <option value="Ramo">Ramo</option>
+                                        <option value="Dulces">Dulces</option>
                                     </select>
                                     <div className="input-group-append">
                                         <div className="input-group-text">

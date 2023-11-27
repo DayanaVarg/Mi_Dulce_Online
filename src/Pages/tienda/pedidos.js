@@ -83,6 +83,7 @@ const Pedidos = () => {
           <option value="">Todas las categorías</option>
           <option value="Colombina">Colombina</option>
           <option value="Ramo">Ramo</option>
+          <option value="Dulces">Dulces</option>
           <option value="Otras">Otras</option>
         </select>
 

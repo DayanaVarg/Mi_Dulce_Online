@@ -420,7 +420,8 @@ img {
   }
 
 .card-img-top{
-    margin-left: 15%;
+    margin-top: 18px;
+    margin-left: 25%;
     height: 220px;
     width: 210px;
     transition:  .3s ease-in-out;

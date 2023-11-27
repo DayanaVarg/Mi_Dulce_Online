@@ -79,7 +79,7 @@
       "Descripción": "Ricos y en sus diferentes presentaciones",
       "imagenUrl": "https://th.bing.com/th/id/R.5af19ad0331998f17759c1b80b86dc61?rik=CE0YI0tl4rqDPw&riu=http%3a%2f%2fpngimg.com%2fuploads%2fchewing_gum%2fchewing_gum_PNG12.png&ehk=SbTWmsV%2bSR9%2bemt247pSKGPvCL48so7%2bj4%2fBmQBJJk0%3d&risl=&pid=ImgRaw&r=0",
       "Categoría": "Colombina",
-      "Precio": "123123",
+      "Precio": "1231",
       "id_tienda": 1,
       "id": 2
     },
@@ -88,7 +88,7 @@
       "Descripción": "Ricas para pasar el rato",
       "imagenUrl": "https://th.bing.com/th/id/R.a3e83271f69619e07a8eaab58793e2ef?rik=Gp7QD8%2blsV6roA&pid=ImgRaw&r=0",
       "Categoría": "Colombina",
-      "Precio": "123123",
+      "Precio": "1200",
       "id_tienda": 5,
       "id": 3
     },
@@ -103,30 +103,12 @@
     },
     {
       "Nombre": "Bocadillo Veleño",
-      "Descripción": "Un dulce típico de la región de Vélez hecho a base de guayaba y panela",
+      "Descripción": "Un dulce típico de la región de Vélez hecho a base de guayaba y panelaa",
       "imagenUrl": "https://th.bing.com/th/id/OIP.WyrWw6uJEqKppAdqUXdZ4gHaEi?rs=1&pid=ImgDetMain",
       "Categoría": "Dulces",
       "Precio": "1000",
       "id_tienda": 1,
       "id": 22
-    },
-    {
-      "Nombre": "Bon Bon Bum",
-      "Descripción": "Un chupetín con sabor a frutas que viene en diferentes presentaciones",
-      "imagenUrl": "https://idtodos.com/wp-content/uploads/2022/03/12003348.png",
-      "Categoría": "Dulces",
-      "Precio": "500",
-      "id_tienda": 1,
-      "id": 23
-    },
-    {
-      "Nombre": "Chocobreak",
-      "Descripción": "Un snack de galleta con relleno de chocolate",
-      "imagenUrl": "https://domain.distrilabendicion.com/79424ad3f7b34e92b33af5309d990477/_bill/_thumbs/422_472_zoom_chocobreak-x-50.jpg",
-      "Categoría": "Snacks",
-      "Precio": "1500",
-      "id_tienda": 1,
-      "id": 24
     },
     {
       "Nombre": "Colombina Mix",
@@ -136,15 +118,6 @@
       "Precio": "1500",
       "id_tienda": 1,
       "id": 27
-    },
-    {
-      "Nombre": "Revolcon",
-      "Descripción": "Dulce un poco acido!",
-      "imagenUrl": "https://candyjobs.com.co/wp-content/uploads/2022/09/REVOLCON-CARAMELO.jpg",
-      "Categoría": "Colombina",
-      "Precio": "5000",
-      "id_tienda": 5,
-      "id": 28
     }
   ],
   "Venta": [
@@ -167,6 +140,26 @@
       "Dirección": "asdasdasd",
       "id_producto": 28,
       "id": 2
+    },
+    {
+      "Nombre": "o",
+      "Apellido": "j",
+      "Correo": "dvarga@gmail.com",
+      "Telefono": "3187368937",
+      "Región": "Medellín",
+      "Dirección": "sdasdasd",
+      "id_producto": 4,
+      "id": 3
+    },
+    {
+      "Nombre": "Daniela",
+      "Apellido": "Vargas",
+      "Correo": "dargas@gmail.com",
+      "Telefono": "3058175647",
+      "Región": "Bogotá",
+      "Dirección": "Cra 46 #69 33 sur",
+      "id_producto": 27,
+      "id": 4
     }
   ]
 }
